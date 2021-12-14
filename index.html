@@ -9,8 +9,17 @@
       <!--Bootstrap 5.1.3-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- Font Awesome --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Viajes Chile</title>
+    </head>
+    <body>
+      
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -20,7 +29,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
@@ -36,10 +45,9 @@
         </div>
       </div>
     </nav>
+    <!-- Carrusel -->
     <div class="container-fluid">
       <div id="carousel" class="carousel slide" data-ride="carousel">
-         
-    <!--Imagenes-->
           <div class="carousel-inner">
               <div class="carousel-item active">
                   <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Alpacas">
@@ -63,7 +71,98 @@
       </div>
   </div>
 </head>
-<body>
-    
+
+        <!-- Section: Quienes Somos? --> 
+        <section id="us" class=" d-none d-lg-block bg-dark">
+          <div class="borde mx-4 py-4">
+              <h3 class="text-center text-white" data-toggle="tooltip" data-placement="top" title="Dame click">¿QUIÉNES SOMOS?</h3>
+          </div>
+          <div class="row p-4 mx-2">
+              <div class="col-lg-4">
+                  <div class="bg-info text-center p-1 rounded-lg" data-toggle="tooltip" data-placement="top" title="Nuestro transporte">
+                      <i class="fas fa-plane fa-2x text-white"></i>
+                  </div>
+                  <div class="text-justify text-white">
+                      <p>Lorem ipsum dolor sit amet elit adipisicing voluptatem consectetur, adipisicing elit. Velit aspernatur nobis vel provident accusantium animi recusandae consequuntur, vitae quas tempora optio labore cumque iure fugiat? Dolorem nesciunt
+                          ratione ipsam rem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestiae quidem voluptatem nostrum in excepturi alias minus ullam laborum rem. Exercitationem harum sunt laudantium amet officiis cupiditate
+                          tempora dolore ipsam Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi unde blanditiis modi culpa, eum obcaecati, iste sit commodi esse odit neque tempora alias assumenda aut fugiat quae repellat ad vel minima
+                          ducimus temporibus similique
+                      </p>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="text-justify text-white">
+                      <p>Lorem ipsum dolor sit amet consecteturem adipisicing elit. Adipisci dolor quam molestias repellendus quidem eaque tempore incidunt placeat optio aperiam amet quia autem dicta commodi corporis facilis, at voluptatibus! Vitae, esse?
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores reprehenderit voluptas officiis natus alias, minima ducimus temporibus similique, eum dolor aspernatur numquam iste sit unde, at doloribus ipsum sed iusto! Lorem
+                          ipsum dolor sit amet consectetur adipisicing elit. Ducimus amet consectetur adipisicing similique iusto odit, at illo quibusdam velit aliquid, omnis ut quia suscipit dolores repellendus adipisci modi nulla ipsam obcaecati facilis
+                          facere.
+                      </p>
+                  </div>
+                  <div class="bg-info text-center p-1 rounded-lg" data-toggle="tooltip" data-placement="top" title="Nuestros paisajes">
+                      <i class="fas fa-mountain fa-2x text-white"></i>
+                  </div> text-white
+              </div>
+              <div class="col-lg-4">
+                  <div class="bg-info text-center p-1 rounded-lg" data-toggle="tooltip" data-placement="top" title="Nuestras rutas">
+                      <i class="fas fa-route fa-2x text-white"></i>
+                  </div>
+                  <div class="text-justify text-white">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat consectetur fuga illo nemo, voluptas quas qui ad dolorem voluptatibus ipsum minus voluptatum et aperiam voluptate similique dicta eos animi Lorem ipsum, dolor sit
+                          amet consectetur adipisicing elit. Iure nemo aperiam placeat fugit harum vitae, voluptatem veniam fuga officia veritatis, magni vel voluptate minus molestias, hic accusantium modi assumenda facere? Lorem ipsum dolor sit amet,
+                          consectetur adipisicing elit. Magnam eligendi ex veritatis ratione iusto aliquam odio culpa reiciendis corrupti aperiam sint doloremque est cum libero sapiente, nemo soluta molestiae maxime? nesciunt ratione pernatur accusantium
+                          modi numquam iste sit unde, at doloribus ipsu.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--Section: Destacados -->
+      <section id="highlights" class="bg-dark text-white">
+          <div class="borde mx-4 py-4">
+              <h3 class="text-center">DESTACADOS</h3>
+          </div>
+          <div>
+              <div class="card-deck mx-2 pt-3 px-4">
+                  <div class="card">
+                      <img src="./assets/img/card1.jpg" class="card-img-top" alt="Paisaje1">
+                      <div class="card-body">
+                          <h5 class="card-title text-center">Ullam odit saepe</h5>
+                          <p class="card-text border border-light rounded-bottom text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam natus, porro inventore, labore laborum voluptatem, dolores sunt animi pariatur nulla rem voluptatibus. A natus accusamus, eius delectus quo incidunt placeat?</p>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <img src="./assets/img/card2.jpg" class="card-img-top" alt="Paisaje2">
+                      <div class="card-body">
+                          <h5 class="card-title text-center">Recusandae nobis!</h5>
+                          <p class="card-text border border-light rounded-bottom text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam odit saepe distinctio est sit omnis pariatur harum nostrum cupiditate molestias, dolorum fuga praesentium eum voluptates eveniet, explicabo vero recusandae! Sapiente.</p>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <img src="./assets/img/card3.jpg" class="card-img-top" alt="Paisaje3">
+                      <div class="card-body">
+                          <h5 class="card-title text-center">praesentium eum</h5>
+                          <p class="card-text border border-light rounded-bottom text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto vero, ut facilis illum impedit itaque doloribus accusantium suscipit quidem consequatur, labore non sit officia? Cumque quisquam atque corporis eaque maiores ullam
+                              odit saepe distinctio.</p>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <img src="./assets/img/card4.jpg" class="card-img-top" alt="Paisaje4">
+                      <div class="card-body">
+                          <h5 class="card-title text-center">natus accusamus</h5>
+                          <p class="card-text border border-light rounded-bottom text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus ad nisi numquam deserunt officia nulla eaque facere veritatis provident dolor esse ipsam eveniet in vero, placeat, consequatur quas? Recusandae, nobis!.</p>
+                      </div>
+                  </div>
+              </div>
+      </section>
+
+
+
+        <!--JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!--Popper js-->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <!--bostrap js-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+        <!--Script-->
+        <script src="assets/js/script.js"></script>
 </body>
 </html>
