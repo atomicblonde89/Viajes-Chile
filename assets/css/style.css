@@ -2,10 +2,33 @@ body * {
     font-family: "Roboto", sans-serif ;
 }
 
-
 .carousel-control-prev,
 .carousel-control-next {
     background: transparent;
     border-color: transparent;
 }
 
+.h1,.h2,.h3,.h4 {
+font-size: 28px;
+font-style: bold;
+font-family: "Roboto, sans-serif";
+}
+
+.navbar img {
+    width: 2rem;
+    margin-right: 2%;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    padding-left: 3rem;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.navbar-brand a {
+    margin: 0%;
+    width: 50%;
+}
