@@ -10,3 +10,7 @@ $(function() {
 
 
 });
+
+$('#enviarCorreo').click(function () { /* Correo enviado / Submit */
+    alert('El correo fue enviado correctamente...');
+    })
