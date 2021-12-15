@@ -73,7 +73,7 @@
   </div>
 </head>
 
-        <!-- Section: Quienes Somos? --> 
+     <!-- Section: Quienes Somos? --> 
         <section id="us" class=" d-none d-lg-block bg-dark">
           <div class="borde mx-4 py-4">
               <h3 class="text-center text-white" data-toggle="tooltip" data-placement="top" title="Dame click">¿QUIÉNES SOMOS?</h3>
@@ -124,7 +124,7 @@
         <hr class="bg-white">
         <div class="row justify-content-md-center">
           <div class="col-sm-3 d-flex">
-            <div class="card">
+            <div class="card h-100">
               <img src="assets/img/card1.jpg" class="card-img-top" alt="paisaje1">
               <div class="card-body bg-info text-white">
                 <h5 class="card-title ">Ullam odit saepe</h5>
@@ -135,8 +135,8 @@
             </div>
           </div>
           <div class="col-sm-3 d-flex">
-            <div class="card">
-              <img src="assets/img/card2.jpg" class="card-img-top" alt="paisaje2">
+            <div class="card h-100">
+              <img src="assets/img/card2.jpg" class="card-img-top" height="300" alt="paisaje2">
               <div class="card-body bg-info text-white">
                 <h5 class="card-title">Recusandae nobis!</h5>
                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -146,7 +146,7 @@
             </div>
           </div>
           <div class="col-sm-3 d-flex">
-            <div class="card">
+            <div class="card h-100">
               <img src="assets/img/card3.jpg" class="card-img-top" alt="paisaje3">
               <div class="card-body bg-info text-white">
                 <h5 class="card-title ">Sed do eiusmod tempor incididunt ut labore</h5>
@@ -156,7 +156,7 @@
             </div>
           </div> 
           <div class="col-sm-3 d-flex">
-            <div class="card">
+            <div class="card h-100">
               <img src="assets/img/card4.jpg" class="card-img-top" alt="paisaje4">
               <div class="card-body bg-info text-white">
                 <h5 class="card-title ">Ut enim ad minim veniam</h5>
@@ -165,7 +165,28 @@
             </div>
           </div>       
         </div>          
-      </section>
+     <!--seccción contacto con formulario-->
+        <section class="container-fluid bg-dark text-white py-1 ">
+            <div class="mx-4 mb-3 py-4">
+             <h3 class="text-center">CONTACTO</h3>
+             <hr class="bg-white">
+             <form>
+                <div class=" nombre mb-3">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="asunto mb-3">
+                  <label for="asunto" class="form-label">Asunto</label>
+                  <input type="email" class="form-control" id="exampleInputPassword1">
+                  <div id="emailHelp" class="form-text"></div>
+                </div>
+                <div class="mensaje mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+        </section>
 
 
 
