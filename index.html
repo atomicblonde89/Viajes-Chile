@@ -15,7 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
     <!-- Font Awesome --> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==
+				"crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>Viajes Chile</title>
     </head>
     <body>
@@ -47,6 +48,7 @@
               </div>
               </div>
             </nav>
+    <main>
     <!-- Carrusel -->
       <div id="carousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -119,7 +121,7 @@
       </section>
 
       <!--Section: Destacados -->
-      <section class="container-fluid pb-5 mb-4 bg-dark">
+      <section class="container-fluid  bg-dark">
         <h1 class="text-center text-white">DESTACADOS</h1>
         <hr class="bg-white">
         <div class="row justify-content-md-center">
@@ -164,13 +166,15 @@
               </div>
             </div>
           </div>       
-        </div>          
-     <!--seccción contacto con formulario-->
-        <section class="container-fluid bg-dark text-white py-1 ">
-            <div class="mx-4 mb-3 py-4">
-             <h3 class="text-center">CONTACTO</h3>
+        </div> 
+							</section>      
+
+     <!--Contacto y formulario-->
+        <section class="container-fluid bg-dark text-white py-2 ">
+           <div class="mx-4 mb-3 py-4">
+            <h3 class="text-center">CONTACTO</h3>
              <hr class="bg-white">
-             <form>
+              <form>
                 <div class=" nombre mb-3">
                   <label for="nombre" class="form-label">Nombre</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -184,12 +188,30 @@
                     <label for="mensaje" class="form-label">Mensaje</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
                   </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-info text-white">Enviar</button>
               </form>
         </section>
-
-
-
+        <!-- Footer y Links -->
+        <footer class=" container-fluid bg-info text-white">
+            <div class="row py-2">
+              <div class="col-12 col-md-6">
+                <h2 class="text-nowrap text-center mt-2">VIAJES CHILE</h2>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="container-fluid">
+                  <div class="d-flex justify-content-center ">
+                    <div class="p-2 bd-highlight"><i class="fab fa-github fa-2x"></i></div>
+                    <div class="p-2 bd-highlight"><i class="fab fa-linkedin fa-2x"></i></div>
+                    <div class="p-2 bd-highlight"><i class="fab fa-twitter-square fa-2x"></i></div>
+                    <div class="p-2 bd-highlight"><i class="fab fa-facebook-square fa-2x"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </main>
+        
+								<!-- Recursos -->
         <!--JQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <!--Popper js-->
